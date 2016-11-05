@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "My first express and node web server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcotello/NodeJSCourse.git"
+  },
+  "author": "Marco Tello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcotello/NodeJSCourse/issues"
+  },
+  "homepage": "https://github.com/marcotello/NodeJSCourse#readme",
+  "dependencies": {
+    "express": "^4.13.2"
+  }
+}
