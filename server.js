@@ -2,8 +2,8 @@ var express = require('express');
 
 var app = express();
 
-var PORT = process.env.PORT;
-var IP = process.env.IP;
+var PORT = process.env.PORT || 3000;
+var IP = process.env.IP || 'localhost';
 
 var middleware = require('./middleware.js')
 // app.get('/', function (req, res) {
